@@ -6,25 +6,34 @@ I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Environments, Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-
-<h2>Environments Used </h2>
-
 - <b>Microsoft Azure</b>
 - <b>Azure Sentinel</b>
+- <b>Log Analytics Workspaces</b>
 - <b>Windows 11</b> (21H2)
-
 
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
+<h3>Deploay Virtual Machine</h3>
+
+<p align="left">
+ 
+- Create an account on Microsoft  Azure
+- Deploy a Windows 11 Virtual Machine and assign requisite resources: https://portal.azure.com/
+- Create a Security to allow all traffic inbound
+ 
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ 
+<h3>Setup Log Analyitics Workspaces</h3>
+- The Purpose of this is to ingest logs from the VM into the analytics space
+- THE SIEM (Azure Sentinel) will connect to this work Space to dispay the GEO data on the Map<br/>
+
+
 Select the disk:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
