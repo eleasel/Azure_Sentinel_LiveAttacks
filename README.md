@@ -12,7 +12,7 @@ I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as
 - <b>Microsoft Azure</b>
 - <b>Azure Sentinel</b>
 - <b>Log Analytics Workspaces</b>
-- <b>Windows 11</b> (21H2)
+- <b>Windows 11</b>
 
 
 <h2>Program walk-through:</h2>
